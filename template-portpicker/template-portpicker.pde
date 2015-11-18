@@ -44,7 +44,7 @@ void setup() {
 }
 
 void draw() {
-  if (connected) {
+  if (!connected) {
     //Do here what you want to do, if not connected to port
     background(200);
     
